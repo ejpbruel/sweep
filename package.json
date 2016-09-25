@@ -1,0 +1,20 @@
+{
+  "name": "sweep",
+  "version": "1.0.0",
+  "description": "An Implementation of the Bentley-Ottman Algorithm in JavaScript.",
+  "author": "Eddy Bruel",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack",
+    "clean": "rm bundle.js",
+    "test": "node_modules/.bin/mocha"
+  },
+  "dependencies": {
+    "rbtree": "git+https://github.com/ejpbruel/rbtree.git"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2",
+    "webpack": "^1.13.2"
+  }
+}
